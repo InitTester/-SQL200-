@@ -25,6 +25,7 @@ SELECT ename,
        sal
 FROM emp
 ORDER BY deptno asc, sal desc;
+
 -- ORDER BY 절에 컬럼명 대신 숫자를 사용가능하다
 SELECT ename,
        deptno,
